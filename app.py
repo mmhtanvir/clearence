@@ -7,6 +7,6 @@ qr = qrcode.QRCode(
     border = 4,
 )
 
-qr.add_data('https://www.facebook.com/mmht.2050')
+qr.add_data('https://mmhtanvir.github.io/clearence/')
 img = qr.make_image(fill_color = 'black', back_color = 'white')
 img.save('qr.png')
